@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Fun Matching Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans Thai', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="gradient-bg text-slate-800 leading-relaxed">
+
+    <!-- Navigation / Language Switcher -->
+    <nav class="fixed top-0 w-full glass-card z-50 shadow-sm">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-xl text-blue-600 flex items-center gap-2">
+                <span class="text-2xl">🎮</span> Fun Matching Game
+            </div>
+            <div class="flex gap-2">
+                <button onclick="switchLang('th')" id="btn-th" class="px-4 py-2 rounded-full text-sm font-medium transition-all bg-blue-600 text-white">ไทย</button>
+                <button onclick="switchLang('en')" id="btn-en" class="px-4 py-2 rounded-full text-sm font-medium transition-all bg-slate-200 text-slate-600 hover:bg-slate-300">English</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="pt-32 pb-12 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 id="main-title" class="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">นโยบายความเป็นส่วนตัว</h1>
+            <p id="last-updated" class="text-slate-500 font-medium">ปรับปรุงล่าสุด: 1 มกราคม 2569</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 pb-24 space-y-8">
+        
+        <!-- Introduction -->
+        <section class="glass-card p-8 rounded-[2rem] shadow-xl border-b-4 border-blue-100 transition-all hover:shadow-2xl">
+            <div class="flex items-start gap-4">
+                <div class="bg-blue-100 p-3 rounded-2xl text-2xl">📝</div>
+                <div>
+                    <h2 id="intro-title" class="text-2xl font-bold mb-3">บทนำ</h2>
+                    <p id="intro-text" class="text-slate-600">นโยบายความเป็นส่วนตัวนี้อธิบายถึงวิธีที่ Fun Matching Game ("เรา") จัดเก็บ ใช้ และเปิดเผยข้อมูลเมื่อคุณใช้งานแอปพลิเคชันของเรา เมื่อคุณใช้งานเกมนี้ ถือว่าคุณยอมรับการจัดเก็บและใช้ข้อมูลตามที่ระบุในนโยบายนี้</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Collection -->
+        <section class="glass-card p-8 rounded-[2rem] shadow-xl border-b-4 border-orange-100 transition-all hover:shadow-2xl">
+            <div class="flex items-start gap-4">
+                <div class="bg-orange-100 p-3 rounded-2xl text-2xl">🔍</div>
+                <div>
+                    <h2 id="collect-title" class="text-2xl font-bold mb-3">การเก็บรวบรวมและการใช้ข้อมูล</h2>
+                    <p id="collect-text" class="text-slate-600 mb-4">เพื่อประสบการณ์ที่ดีในการใช้งาน เราไม่มีนโยบายขอข้อมูลที่ระบุตัวตนของคุณโดยตรง อย่างไรก็ตาม แอปพลิเคชันนี้มีการใช้งานบริการจากบุคคลที่สามที่อาจมีการจัดเก็บข้อมูลเพื่อระบุตัวตนของคุณ</p>
+                    
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                        <h3 id="third-party-title" class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span> ผู้ให้บริการบุคคลที่สาม
+                        </h3>
+                        <p id="third-party-text" class="text-slate-600 mb-4 text-sm">แอปพลิเคชันของเราใช้ Google AdMob ในการแสดงโฆษณา ซึ่งอาจมีการจัดเก็บและใช้ข้อมูลบางอย่าง (เช่น Android Advertising ID) เพื่อแสดงโฆษณาที่เหมาะสมกับคุณ</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://www.google.com/policies/privacy/" target="_blank" class="text-blue-600 hover:underline text-sm font-medium">Google Play Services Policy</a>
+                            <a href="https://support.google.com/admob/answer/6128543?hl=th" target="_blank" class="text-blue-600 hover:underline text-sm font-medium">AdMob Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Log Data -->
+        <section class="glass-card p-8 rounded-[2rem] shadow-xl border-b-4 border-purple-100 transition-all hover:shadow-2xl">
+            <div class="flex items-start gap-4">
+                <div class="bg-purple-100 p-3 rounded-2xl text-2xl">📊</div>
+                <div>
+                    <h2 id="log-title" class="text-2xl font-bold mb-3">ข้อมูลบันทึก (Log Data)</h2>
+                    <p id="log-text" class="text-slate-600">ในกรณีที่เกิดข้อผิดพลาดในแอป เราอาจเก็บข้อมูลที่เรียกว่า Log Data ผ่านบริการบุคคลที่สาม ซึ่งอาจรวมถึงหมายเลข IP ของอุปกรณ์, ชื่ออุปกรณ์, เวอร์ชันของระบบปฏิบัติการ และสถิติอื่นๆ เพื่อนำมาปรับปรุงแอปให้ดียิ่งขึ้น</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Children's Privacy -->
+        <section class="glass-card p-8 rounded-[2rem] shadow-xl border-b-4 border-green-100 transition-all hover:shadow-2xl">
+            <div class="flex items-start gap-4">
+                <div class="bg-green-100 p-3 rounded-2xl text-2xl">👶</div>
+                <div>
+                    <h2 id="children-title" class="text-2xl font-bold mb-3">ความเป็นส่วนตัวของเด็ก</h2>
+                    <p id="children-text" class="text-slate-600">แอปพลิเคชันนี้ไม่ได้มีเป้าหมายเพื่อจัดเก็บข้อมูลส่วนบุคคลจากเด็กที่มีอายุต่ำกว่า 13 ปี หากคุณเป็นผู้ปกครองและพบว่าบุตรหลานของท่านได้ให้ข้อมูลส่วนบุคคลแก่เรา โปรดติดต่อเราทันทีเพื่อดำเนินการลบข้อมูลดังกล่าว</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security -->
+        <section class="glass-card p-8 rounded-[2rem] shadow-xl border-b-4 border-red-100 transition-all hover:shadow-2xl">
+            <div class="flex items-start gap-4">
+                <div class="bg-red-100 p-3 rounded-2xl text-2xl">🛡️</div>
+                <div>
+                    <h2 id="security-title" class="text-2xl font-bold mb-3">ความปลอดภัยของข้อมูล</h2>
+                    <p id="security-text" class="text-slate-600">เราให้ความสำคัญกับความไว้วางใจของคุณในการใช้งานแอปของเรา เราจึงพยายามอย่างเต็มที่ในการปกป้องข้อมูลด้วยวิธีการที่เหมาะสม อย่างไรก็ตาม โปรดจำไว้ว่าไม่มีวิธีการส่งข้อมูลผ่านอินเทอร์เน็ตหรือการจัดเก็บข้อมูลอิเล็กทรอนิกส์ใดที่ปลอดภัย 100%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="bg-slate-900 text-white p-10 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+            <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <h2 id="contact-title" class="text-3xl font-bold mb-2 text-blue-400">ติดต่อเรา</h2>
+                    <p id="contact-text" class="text-slate-400">หากคุณมีคำถามหรือข้อเสนอแนะเกี่ยวกับนโยบายความเป็นส่วนตัวนี้</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-3xl border border-white/10 backdrop-blur-md w-full md:w-auto text-center">
+                    <p class="text-sm text-slate-400 mb-1 uppercase tracking-widest font-bold">อีเมลสำหรับติดต่อ</p>
+                    <a href="mailto:YOUR_EMAIL_HERE@gmail.com" class="text-xl font-bold text-white hover:text-blue-400 transition-colors">nfixgsm@gmail.com</a>
+                </div>
+            </div>
+            <!-- Decorative circle -->
+            <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl"></div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-4xl mx-auto px-6 pb-12 text-center text-slate-400 text-sm font-medium">
+        <p>© 2026 Fun Matching Game. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const content = {
+            th: {
+                mainTitle: "นโยบายความเป็นส่วนตัว",
+                lastUpdated: "ปรับปรุงล่าสุด: 1 มกราคม 2569",
+                introTitle: "บทนำ",
+                introText: "นโยบายความเป็นส่วนตัวนี้อธิบายถึงวิธีที่ Fun Matching Game (\"เรา\") จัดเก็บ ใช้ และเปิดเผยข้อมูลเมื่อคุณใช้งานแอปพลิเคชันของเรา เมื่อคุณใช้งานเกมนี้ ถือว่าคุณยอมรับการจัดเก็บและใช้ข้อมูลตามที่ระบุในนโยบายนี้",
+                collectTitle: "การเก็บรวบรวมและการใช้ข้อมูล",
+                collectText: "เพื่อประสบการณ์ที่ดีในการใช้งาน เราไม่มีนโยบายขอข้อมูลที่ระบุตัวตนของคุณโดยตรง อย่างไรก็ตาม แอปพลิเคชันนี้มีการใช้งานบริการจากบุคคลที่สามที่อาจมีการจัดเก็บข้อมูลเพื่อระบุตัวตนของคุณ",
+                thirdPartyTitle: "ผู้ให้บริการบุคคลที่สาม",
+                thirdPartyText: "แอปพลิเคชันของเราใช้ Google AdMob ในการแสดงโฆษณา ซึ่งอาจมีการจัดเก็บและใช้ข้อมูลบางอย่าง (เช่น Android Advertising ID) เพื่อแสดงโฆษณาที่เหมาะสมกับคุณ",
+                logTitle: "ข้อมูลบันทึก (Log Data)",
+                logText: "ในกรณีที่เกิดข้อผิดพลาดในแอป เราอาจเก็บข้อมูลที่เรียกว่า Log Data ผ่านบริการบุคคลที่สาม ซึ่งอาจรวมถึงหมายเลข IP ของอุปกรณ์, ชื่ออุปกรณ์, เวอร์ชันของระบบปฏิบัติการ และสถิติอื่นๆ เพื่อนำมาปรับปรุงแอปให้ดียิ่งขึ้น",
+                childrenTitle: "ความเป็นส่วนตัวของเด็ก",
+                childrenText: "แอปพลิเคชันนี้ไม่ได้มีเป้าหมายเพื่อจัดเก็บข้อมูลส่วนบุคคลจากเด็กที่มีอายุต่ำกว่า 13 ปี หากคุณเป็นผู้ปกครองและพบว่าบุตรหลานของท่านได้ให้ข้อมูลส่วนบุคคลแก่เรา โปรดติดต่อเราทันทีเพื่อดำเนินการลบข้อมูลดังกล่าว",
+                securityTitle: "ความปลอดภัยของข้อมูล",
+                securityText: "เราให้ความสำคัญกับความไว้วางใจของคุณในการใช้งานแอปของเรา เราจึงพยายามอย่างเต็มที่ในการปกป้องข้อมูลด้วยวิธีการที่เหมาะสม อย่างไรก็ตาม โปรดจำไว้ว่าไม่มีวิธีการส่งข้อมูลผ่านอินเทอร์เน็ตหรือการจัดเก็บข้อมูลอิเล็กทรอนิกส์ใดที่ปลอดภัย 100%",
+                contactTitle: "ติดต่อเรา",
+                contactText: "หากคุณมีคำถามหรือข้อเสนอแนะเกี่ยวกับนโยบายความเป็นส่วนตัวนี้"
+            },
+            en: {
+                mainTitle: "Privacy Policy",
+                lastUpdated: "Last Updated: January 1, 2026",
+                introTitle: "Overview",
+                introText: "This Privacy Policy describes how Fun Matching Game (\"we,\" \"our,\" or \"us\") collects, uses, and shares information when you play our mobile application. By using the Game, you agree to the collection and use of information in accordance with this policy.",
+                collectTitle: "Information Collection and Use",
+                collectText: "For a better experience while using our service, we do not require you to provide us with any personally identifiable information directly. However, the app does use third-party services that may collect information used to identify you.",
+                thirdPartyTitle: "Third-Party Service Providers",
+                thirdPartyText: "Our app uses Google AdMob to display advertisements. AdMob may collect and use certain data (such as Android Advertising ID) to show relevant ads.",
+                logTitle: "Log Data",
+                logText: "We want to inform you that whenever you use our service, in case of an error in the app, we may collect data and information on your phone called Log Data. This may include IP address, device name, OS version, and usage statistics.",
+                childrenTitle: "Children’s Privacy",
+                childrenText: "These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian, please contact us if you discover any data issues.",
+                securityTitle: "Security",
+                securityText: "We value your trust in providing us your information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission is 100% secure.",
+                contactTitle: "Contact Us",
+                contactText: "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us."
+            }
+        };
+
+        function switchLang(lang) {
+            document.getElementById('main-title').innerText = content[lang].mainTitle;
+            document.getElementById('last-updated').innerText = content[lang].lastUpdated;
+            document.getElementById('intro-title').innerText = content[lang].introTitle;
+            document.getElementById('intro-text').innerText = content[lang].introText;
+            document.getElementById('collect-title').innerText = content[lang].collectTitle;
+            document.getElementById('collect-text').innerText = content[lang].collectText;
+            document.getElementById('third-party-title').innerHTML = `<span class="w-2 h-2 bg-blue-500 rounded-full"></span> ${content[lang].thirdPartyTitle}`;
+            document.getElementById('third-party-text').innerText = content[lang].thirdPartyText;
+            document.getElementById('log-title').innerText = content[lang].logTitle;
+            document.getElementById('log-text').innerText = content[lang].logText;
+            document.getElementById('children-title').innerText = content[lang].childrenTitle;
+            document.getElementById('children-text').innerText = content[lang].childrenText;
+            document.getElementById('security-title').innerText = content[lang].securityTitle;
+            document.getElementById('security-text').innerText = content[lang].securityText;
+            document.getElementById('contact-title').innerText = content[lang].contactTitle;
+            document.getElementById('contact-text').innerText = content[lang].contactText;
+
+            // Update buttons
+            if (lang === 'th') {
+                document.getElementById('btn-th').className = "px-4 py-2 rounded-full text-sm font-medium transition-all bg-blue-600 text-white";
+                document.getElementById('btn-en').className = "px-4 py-2 rounded-full text-sm font-medium transition-all bg-slate-200 text-slate-600 hover:bg-slate-300";
+            } else {
+                document.getElementById('btn-th').className = "px-4 py-2 rounded-full text-sm font-medium transition-all bg-slate-200 text-slate-600 hover:bg-slate-300";
+                document.getElementById('btn-en').className = "px-4 py-2 rounded-full text-sm font-medium transition-all bg-blue-600 text-white";
+            }
+        }
+    </script>
+</body>
+</html>
